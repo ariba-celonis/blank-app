@@ -5,6 +5,6 @@ if "name" not in st.session_state:
 
 'Hi,', st.session_state.name
 
-st.session_state.name = st.text_area("", st.session_state.name)
+st.session_state.name = st.text_area("", "")
 
 'Bye,', st.session_state.name
